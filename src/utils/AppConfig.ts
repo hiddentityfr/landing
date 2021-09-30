@@ -1,6 +1,7 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
-  locale: 'en',
+  site_name: 'Hiddentity',
+  title: 'Hiddentity',
+  description:
+    'Première plateforme de recrutement par matching entièrement anonymisé',
+  locale: 'fr',
 };

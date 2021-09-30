@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
@@ -12,13 +11,8 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Sign in</a>
+          <Link href="mailto:contact@hiddentity.fr">
+            <a>Contact</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,17 +22,52 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            Trouvez l&apos;emploi que vous{'\n'}
+            <span className="text-primary-500">méritez vraiment</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Notre mission, supprimer les barrières du recrutement."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Download Your Free Theme</Button>
-            </a>
-          </Link>
+          <div className="w-full max-w-md self-center center">
+            <form
+              className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+              action="https://hiddentity.us4.list-manage.com/subscribe/post?u=2a2d72067208921b3df7a14f4&amp;id=f28c53000a"
+              method="post"
+            >
+              <div className="justify-items-start">
+                <h3 className="text-3xl font-bold text-black">
+                  Intéressé(e) par le projet ?
+                </h3>
+                <p className="text-left my-4">
+                  Car ce n&apos;est qu&apos;ensemble que nous pourrons
+                  construire l&apos;avenir du recrutement ✋
+                </p>
+              </div>
+              <div className="mb-4 flex items-center">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2 mr-4"
+                  htmlFor="email"
+                >
+                  Email
+                </label>
+                <input
+                  name="EMAIL"
+                  type="email"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  placeholder="me@hiddentity.fr"
+                  required
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <button
+                  className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  type="submit"
+                >
+                  Suivre le projet
+                </button>
+              </div>
+            </form>
+          </div>
         }
       />
     </Section>
