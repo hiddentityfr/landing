@@ -32,9 +32,9 @@ const Team = () => (
     title="L'équipe"
     description="6 personnes qui se sont données le défi de révolutionner le recrutement."
   >
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-2 md:grid-cols-3 items-center text-center">
       {members.map(({ name, role }) => (
-        <div key={name}>
+        <div key={name} className="py-4">
           <h3 className="text-3xl text-gray-900 font-semibold">{name}</h3>
           <div className="text-xl leading-9">{role}</div>
         </div>
