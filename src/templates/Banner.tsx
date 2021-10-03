@@ -12,7 +12,7 @@ const Banner = () => (
       button={
         <Link href="#join">
           <a>
-            <Button>Rejoindre la beta</Button>
+            <Button>Rejoindre la bêta</Button>
           </a>
         </Link>
       }

@@ -35,19 +35,13 @@ const Hero = () => (
               method="post"
             >
               <div className="justify-items-start">
-                <h3 className="text-3xl font-bold text-black">
-                  Intéressé(e) par le projet ?
-                </h3>
+                <h3 className="text-3xl font-bold text-black">Intéressé(e) par le projet ?</h3>
                 <p className="text-left my-4">
-                  Car ce n&apos;est qu&apos;ensemble que nous pourrons
-                  construire l&apos;avenir du recrutement ✋
+                  Car ce n&apos;est qu&apos;ensemble que nous pourrons construire l&apos;avenir du recrutement ✋
                 </p>
               </div>
               <div className="mb-4 flex items-center">
-                <label
-                  className="block text-gray-700 text-sm font-bold mb-2 mr-4"
-                  htmlFor="email"
-                >
+                <label className="block text-gray-700 text-sm font-bold mb-2 mr-4" htmlFor="email">
                   Email
                 </label>
                 <input
@@ -60,7 +54,7 @@ const Hero = () => (
               </div>
               <div className="flex items-center justify-center">
                 <button
-                  className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  className="w-full bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                   type="submit"
                 >
                   Suivre le projet

@@ -16,17 +16,20 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      listStyleType: {
+        disclosure: 'disclosure-closed',
+      },
       colors: {
         primary: {
-          100: '#E6F6FE',
-          200: '#C0EAFC',
-          300: '#9ADDFB',
-          400: '#4FC3F7',
-          500: '#03A9F4',
-          600: '#0398DC',
-          700: '#026592',
-          800: '#014C6E',
-          900: '#013349',
+          100: '#d1eff0',
+          200: '#a4dfe0',
+          300: '#76d0d1',
+          400: '#49c0c1',
+          500: '#349899',
+          600: '#2a7a7a',
+          700: '#1f5b5c',
+          800: '#153d3d',
+          900: '#0a1e1f',
         },
         gray: {
           100: '#f7fafc',
