@@ -48,17 +48,12 @@ const Footer = () => (
       >
         <li>
           <Link href="/">
-            <a>Home</a>
+            <a>Accueil</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Docs</a>
+          <Link href="#join">
+            <a>Rejoindre la bêta</a>
           </Link>
         </li>
         <li>
