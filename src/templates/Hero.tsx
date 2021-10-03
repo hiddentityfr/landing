@@ -35,13 +35,19 @@ const Hero = () => (
               method="post"
             >
               <div className="justify-items-start">
-                <h3 className="text-3xl font-bold text-black">Intéressé(e) par le projet ?</h3>
+                <h3 className="text-3xl font-bold text-black">
+                  Intéressé(e) par le projet ?
+                </h3>
                 <p className="text-left my-4">
-                  Car ce n&apos;est qu&apos;ensemble que nous pourrons construire l&apos;avenir du recrutement ✋
+                  Car ce n&apos;est qu&apos;ensemble que nous pourrons
+                  construire l&apos;avenir du recrutement ✋
                 </p>
               </div>
               <div className="mb-4 flex items-center">
-                <label className="block text-gray-700 text-sm font-bold mb-2 mr-4" htmlFor="email">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2 mr-4"
+                  htmlFor="email"
+                >
                   Email
                 </label>
                 <input

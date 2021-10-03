@@ -6,13 +6,15 @@ const VerticalFeatures = () => (
     title="Une solution aux problèmes d'aujourdhui"
     description={
       <>
-        En France, une personne sur trois au sein de la population active déclare avoir été discriminée dans
-        l&apos;emploi, et une personne sur cinq lors d&apos;une recherche d&apos;emploi.
+        En France, une personne sur trois au sein de la population active
+        déclare avoir été discriminée dans l&apos;emploi, et une personne sur
+        cinq lors d&apos;une recherche d&apos;emploi.
         <br />
         <br />
-        C&apos;est pourquoi nous proposons notre solution, hiddentity. Notre objectif est de réduire la discrimination à
-        l&apos;embauche tout en améliorant et simplifiant les différentes étapes de la recherche d&apos;emploi ainsi que
-        du processus de recrutement.
+        C&apos;est pourquoi nous proposons notre solution, hiddentity. Notre
+        objectif est de réduire la discrimination à l&apos;embauche tout en
+        améliorant et simplifiant les différentes étapes de la recherche
+        d&apos;emploi ainsi que du processus de recrutement.
       </>
     }
   >
