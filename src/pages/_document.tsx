@@ -7,7 +7,27 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+          {process.env.NODE_ENV === 'production' && (
+            <>
+              <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=G-XT3F5QQJ6K"
+              />
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                
+                  gtag('config', 'G-XT3F5QQJ6K');
+                `,
+                }}
+              />
+            </>
+          )}
+        </Head>
         <body>
           <Main />
           <NextScript />
